@@ -1,0 +1,33 @@
+<div class='enfermedad'> 
+
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Funcionario:</strong>
+  <%= @enfermedad.funcionario.nombres rescue nil %>
+</p>
+
+<p>
+  <strong>Tipo de enfermedad:</strong>
+  <%= @enfermedad.tipoenfermedad.nombre rescue nil %>
+</p>
+
+
+<p>
+  <strong>Descripcion:</strong>
+  <%= @enfermedad.descripcion %>
+</p>
+
+<p>
+  <strong>fecha:</strong>
+  <%= @enfermedad.fecha %>
+</p>
+
+<p>
+  <strong>Codigo de diagnostico:</strong>
+  <%= @enfermedad.codigodediagnostico %>
+</p>
+
+
+
+</div>

@@ -1,0 +1,47 @@
+
+<p>
+  <strong>Funcionario:</strong>
+  <%= @incapacidad.funcionario.nombres rescue nil%>
+</p>
+
+<p>
+  <strong>Tipo de incapacidad:</strong>
+  <%= mostrartipoincapacidad(@incapacidad.tipoincapacidad_id) %>
+
+</p>
+
+<p>
+  <strong>Fecha inicio:</strong>
+  <%= @incapacidad.fechainicio %>
+</p>
+
+<p>
+  <strong>Fecha terminacion:</strong>
+  <%= @incapacidad.fechaterminacion %>
+</p>
+
+<p>
+  <strong>Total dias:</strong>
+  <%= @incapacidad.totaldias %>
+</p>
+
+<p>
+  <strong>Dias acobrar:</strong>
+  <%= @incapacidad.diasacobrar %>
+</p>
+
+<p>
+  <strong>Prorroga:</strong>
+  <%= @incapacidad.prorroga %>
+</p>
+
+<p>
+  <strong>Numero inpacacidad:</strong>
+  <%= @incapacidad.numeroinpacacidad %>
+</p>
+
+<p>
+  <strong>Origen de la incapacidad:</strong>
+  <%= @incapacidad.origendelaincapacidad %>
+</p>
+

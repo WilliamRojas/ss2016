@@ -1,0 +1,61 @@
+
+#ano{
+    width:70px ;
+   margin-left: 30px;
+	background-image: -o-linear-gradient(top, 090373, #033c73);
+    background-image: linear-gradient(to bottom, #00FFFF,#2E64FE);
+}
+
+h2{
+color:#317EAC;
+}
+h3{
+	color:#317EAC;
+	margin-left: 20px;
+}
+#estadis{
+ margin: 0px auto;
+
+ background-position: 60% 200%;
+ background-repeat: no-repeat;
+position: absolute;
+right: 0px;
+bottom: -50px;
+top:-120;
+
+
+}
+
+.imagen{
+	float:left;
+	size:20px 10px 5px 5px;
+	margin-left: 50px;
+	max-width:70px;
+	max-height: 50px;
+}
+
+p{
+	margin-left: 20px;
+    font-style:arial;
+
+
+
+}
+#tab{
+	 -webkit-box-shadow: 0 0 10px rgb(0,0,0);
+   -moz-box-shadow: 0 0 10px rgb(0,0,0);
+    box-shadow: 0 0 10px rgb(0,0,0);
+    width: 1017px;
+    margin-left:80px; 
+    margin-top: -10px;
+    height: 300px;
+    padding: 0px 0px;
+    background: #EFF2FB;
+
+}
+
+.color{
+
+    background-color: #0489B1;
+    }
+
