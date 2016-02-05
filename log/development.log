@@ -3244,3 +3244,798 @@ Processing by UserSessionsController#index as HTML
   Rendered layouts/_messages.html.erb (2.2ms)
   Rendered layouts/_footer.html.erb (1.1ms)
 Completed 200 OK in 4870ms (Views: 4821.3ms | ActiveRecord: 0.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.6ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.7ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_accidentes_on_tipodoc_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_accidentes_on_tipodoc_id' AND type='index'
+[0m
+  [1m[35m (0.6ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_accidentes_on_tipoaccidente_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_accidentes_on_tipoaccidente_id' AND type='index'
+
+  [1m[36m (0.4ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_accidentes_on_municipio_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_accidentes_on_municipio_id' AND type='index'
+[0m
+  [1m[35m (0.4ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_accidentes_on_funcionario_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_accidentes_on_funcionario_id' AND type='index'
+
+  [1m[36m (0.4ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_accidentes_on_departamento_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_accidentes_on_departamento_id' AND type='index'
+[0m
+  [1m[35m (0.5ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_enfermedads_on_tipoenfermedad_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_enfermedads_on_tipoenfermedad_id' AND type='index'
+
+  [1m[36m (0.4ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_enfermedads_on_tipodoc_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_enfermedads_on_tipodoc_id' AND type='index'
+[0m
+  [1m[35m (0.4ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_enfermedads_on_funcionario_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_enfermedads_on_funcionario_id' AND type='index'
+
+  [1m[36m (0.5ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_enfermedads_on_centro_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_enfermedads_on_centro_id' AND type='index'
+[0m
+  [1m[35m (0.4ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_funcionarios_on_tipodoc_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_funcionarios_on_tipodoc_id' AND type='index'
+
+  [1m[36m (0.5ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_funcionarios_on_centro_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_funcionarios_on_centro_id' AND type='index'
+[0m
+  [1m[35m (0.5ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_incapacidads_on_tipoincapacidad_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_incapacidads_on_tipoincapacidad_id' AND type='index'
+
+  [1m[36m (0.5ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_incapacidads_on_funcionario_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_incapacidads_on_funcionario_id' AND type='index'
+[0m
+  [1m[35m (0.5ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_incidentes_on_tipoincidente_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_incidentes_on_tipoincidente_id' AND type='index'
+
+  [1m[36m (0.4ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_incidentes_on_personalinvolucrado_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_incidentes_on_personalinvolucrado_id' AND type='index'
+[0m
+  [1m[35m (0.5ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_incidentes_on_funcionario_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_incidentes_on_funcionario_id' AND type='index'
+
+  [1m[36m (0.5ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_incidentes_on_centro_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_incidentes_on_centro_id' AND type='index'
+[0m
+  [1m[35m (0.5ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_riesgos_on_tiporiesgo_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_riesgos_on_tiporiesgo_id' AND type='index'
+
+  [1m[36m (0.5ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_riesgos_on_funcionario_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_riesgos_on_funcionario_id' AND type='index'
+[0m
+  [1m[35m (0.4ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+  [1m[36m (122.9ms)[0m  [1mCREATE TABLE "accidentes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "diligenciador" varchar(255), "eps" varchar(255), "afp" varchar(255), "arl" varchar(255), "documento" varchar(255), "tipodoc_id" integer, "tipo_de_vinculacion" varchar(255), "razon_social" varchar(255), "direccion_sede_principal" varchar(255), "direccion_reportada" varchar(255), "telefono_reportado" varchar(255), "actividad_economica_sede_principal" varchar(255), "codigo" varchar(255), "telefono_sede_principal" varchar(255), "fax_sede_principal" varchar(255), "email_sede_principal" varchar(255), "departamento_id" integer, "municipio_id" integer, "zona" varchar(255), "actividad_economica_centro_trabajo" varchar(255), "direccion_centro_trabajo" varchar(255), "telefono_ct" varchar(255), "fax_ct" varchar(255), "email_ct" varchar(255), "departamento1" integer, "municipio1" integer, "zona1" varchar(255), "funcionario_id" integer, "fchAc" date, "hora_del_accidente" varchar(255), "dia_de_la_semana" varchar(255), "jornada_en_que_sucede" varchar(255), "realiza_su_labor" boolean, "ocupacion_no_habitual" varchar(255), "tiempo_laborado" varchar(255), "lugar_donde_ocurrio_el_at" varchar(255), "mecanismo_o_formato_del_at" varchar(255), "tipo_de_lesion" varchar(255), "sitio" varchar(255), "tipo_de_accidente" varchar(255), "parte_del_cuerpo_afectado" varchar(255), "agente_del_accidente" varchar(255), "departamento2" integer, "municipio2" integer, "zona2" varchar(255), "mortal" boolean, "fecha_mortal" date, "descripcion_del_at" varchar(255), "hubo_personas_que_presenciaron_el_accidente" boolean, "testigo1" varchar(255), "tipodoc1" integer, "documento1" varchar(255), "testigo2" varchar(255), "tipodoc2" integer, "documento2" varchar(255), "responsable_informe" varchar(255), "tipodoc3" integer, "documento3" varchar(255), "created_at" datetime, "updated_at" datetime, "tipoaccidente_id" integer) [0m
+  [1m[35m (0.4ms)[0m  select sqlite_version(*)
+  [1m[36m (97.9ms)[0m  [1mCREATE  INDEX "index_accidentes_on_departamento_id" ON "accidentes" ("departamento_id")[0m
+  [1m[35m (0.9ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_accidentes_on_departamento_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_accidentes_on_departamento_id' AND type='index'
+
+  [1m[36m (107.6ms)[0m  [1mCREATE  INDEX "index_accidentes_on_funcionario_id" ON "accidentes" ("funcionario_id")[0m
+  [1m[35m (0.4ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_accidentes_on_funcionario_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_accidentes_on_funcionario_id' AND type='index'
+
+  [1m[36m (0.5ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_accidentes_on_departamento_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_accidentes_on_departamento_id' AND type='index'
+[0m
+  [1m[35m (118.4ms)[0m  CREATE  INDEX "index_accidentes_on_municipio_id" ON "accidentes" ("municipio_id")
+  [1m[36m (0.5ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_accidentes_on_municipio_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_accidentes_on_municipio_id' AND type='index'
+[0m
+  [1m[35m (0.5ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_accidentes_on_funcionario_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_accidentes_on_funcionario_id' AND type='index'
+
+  [1m[36m (0.4ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_accidentes_on_departamento_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_accidentes_on_departamento_id' AND type='index'
+[0m
+  [1m[35m (129.0ms)[0m  CREATE  INDEX "index_accidentes_on_tipoaccidente_id" ON "accidentes" ("tipoaccidente_id")
+  [1m[36m (0.7ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_accidentes_on_tipoaccidente_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_accidentes_on_tipoaccidente_id' AND type='index'
+[0m
+  [1m[35m (0.7ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_accidentes_on_municipio_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_accidentes_on_municipio_id' AND type='index'
+
+  [1m[36m (0.6ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_accidentes_on_funcionario_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_accidentes_on_funcionario_id' AND type='index'
+[0m
+  [1m[35m (0.6ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_accidentes_on_departamento_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_accidentes_on_departamento_id' AND type='index'
+
+  [1m[36m (123.4ms)[0m  [1mCREATE  INDEX "index_accidentes_on_tipodoc_id" ON "accidentes" ("tipodoc_id")[0m
+  [1m[35m (120.1ms)[0m  CREATE TABLE "albums" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "recomendacion" text, "created_at" datetime, "updated_at" datetime, "image_file_name" varchar(255), "image_content_type" varchar(255), "image_file_size" integer, "image_updated_at" datetime) 
+  [1m[36m (108.6ms)[0m  [1mCREATE TABLE "centros" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "nombre" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (109.2ms)[0m  CREATE TABLE "departamentos" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "nombre" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (85.8ms)[0m  [1mCREATE TABLE "enfermedads" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "centro_id" integer, "tipodoc_id" integer, "documento" varchar(255), "funcionario_id" integer, "codigodediagnostico" varchar(255), "created_at" datetime, "updated_at" datetime, "descripcion" varchar(255), "fecha" date, "tipoenfermedad_id" integer) [0m
+  [1m[35m (143.6ms)[0m  CREATE  INDEX "index_enfermedads_on_centro_id" ON "enfermedads" ("centro_id")
+  [1m[36m (0.7ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_enfermedads_on_centro_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_enfermedads_on_centro_id' AND type='index'
+[0m
+  [1m[35m (140.8ms)[0m  CREATE  INDEX "index_enfermedads_on_funcionario_id" ON "enfermedads" ("funcionario_id")
+  [1m[36m (0.5ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_enfermedads_on_funcionario_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_enfermedads_on_funcionario_id' AND type='index'
+[0m
+  [1m[35m (0.6ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_enfermedads_on_centro_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_enfermedads_on_centro_id' AND type='index'
+
+  [1m[36m (118.2ms)[0m  [1mCREATE  INDEX "index_enfermedads_on_tipodoc_id" ON "enfermedads" ("tipodoc_id")[0m
+  [1m[35m (0.5ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_enfermedads_on_tipodoc_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_enfermedads_on_tipodoc_id' AND type='index'
+
+  [1m[36m (0.8ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_enfermedads_on_funcionario_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_enfermedads_on_funcionario_id' AND type='index'
+[0m
+  [1m[35m (0.6ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_enfermedads_on_centro_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_enfermedads_on_centro_id' AND type='index'
+
+  [1m[36m (126.7ms)[0m  [1mCREATE  INDEX "index_enfermedads_on_tipoenfermedad_id" ON "enfermedads" ("tipoenfermedad_id")[0m
+  [1m[35m (119.7ms)[0m  CREATE TABLE "events" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "start" date, "end" date, "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (106.7ms)[0m  [1mCREATE TABLE "funcionarios" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "nombres" varchar(255), "apellidos" varchar(255), "tipodoc_id" integer, "identificacion" varchar(255), "telefono" varchar(255), "mail" varchar(255), "centro_id" integer, "codigo" varchar(255), "eps" varchar(255), "afp" varchar(255), "arl" varchar(255), "lugar_de_expedicion" varchar(255), "lugar_de_nacimiento" varchar(255), "fecha_de_nacimiento" date, "edad" varchar(255), "area" varchar(255), "fecha_de_ingreso" date, "antiguedad" varchar(255), "funciones_principales" varchar(255), "created_at" datetime, "updated_at" datetime, "genero" boolean, "cargo" varchar(255)) [0m
+  [1m[35m (121.4ms)[0m  CREATE  INDEX "index_funcionarios_on_centro_id" ON "funcionarios" ("centro_id")
+  [1m[36m (0.5ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_funcionarios_on_centro_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_funcionarios_on_centro_id' AND type='index'
+[0m
+  [1m[35m (143.4ms)[0m  CREATE  INDEX "index_funcionarios_on_tipodoc_id" ON "funcionarios" ("tipodoc_id")
+  [1m[36m (152.1ms)[0m  [1mCREATE TABLE "incapacidads" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "funcionario_id" integer, "fechainicio" date, "fechaterminacion" date, "totaldias" varchar(255), "diasacobrar" varchar(255), "prorroga" varchar(255), "numeroinpacacidad" varchar(255), "esp" varchar(255), "origendelaincapacidad" varchar(255), "created_at" datetime, "updated_at" datetime, "tipoincapacidad_id" integer) [0m
+  [1m[35m (131.7ms)[0m  CREATE  INDEX "index_incapacidads_on_funcionario_id" ON "incapacidads" ("funcionario_id")
+  [1m[36m (0.7ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_incapacidads_on_funcionario_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_incapacidads_on_funcionario_id' AND type='index'
+[0m
+  [1m[35m (152.2ms)[0m  CREATE  INDEX "index_incapacidads_on_tipoincapacidad_id" ON "incapacidads" ("tipoincapacidad_id")
+  [1m[36m (151.2ms)[0m  [1mCREATE TABLE "incidentes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "centro_id" integer, "area_o_proceso" varchar(255), "lugar_de_ocurrencia" boolean, "fecha_del_reporte" date, "hora_del_reporte" varchar(255), "funcionario_id" integer, "personalinvolucrado_id" integer, "otro" varchar(255), "especifique" varchar(255), "nombre_completo1" varchar(255), "email1" varchar(255), "telefono1" varchar(255), "nombre_completo2" varchar(255), "email2" varchar(255), "telefono2" varchar(255), "descripcion_del_evento" varchar(255), "nombre_del_dilenciador" varchar(255), "nombre_de_lider_de_informe" varchar(255), "created_at" datetime, "updated_at" datetime, "tipoincidente_id" integer) [0m
+  [1m[35m (143.0ms)[0m  CREATE  INDEX "index_incidentes_on_centro_id" ON "incidentes" ("centro_id")
+  [1m[36m (0.5ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_incidentes_on_centro_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_incidentes_on_centro_id' AND type='index'
+[0m
+  [1m[35m (141.6ms)[0m  CREATE  INDEX "index_incidentes_on_funcionario_id" ON "incidentes" ("funcionario_id")
+  [1m[36m (0.8ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_incidentes_on_funcionario_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_incidentes_on_funcionario_id' AND type='index'
+[0m
+  [1m[35m (0.7ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_incidentes_on_centro_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_incidentes_on_centro_id' AND type='index'
+
+  [1m[36m (149.4ms)[0m  [1mCREATE  INDEX "index_incidentes_on_personalinvolucrado_id" ON "incidentes" ("personalinvolucrado_id")[0m
+  [1m[35m (0.7ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_incidentes_on_personalinvolucrado_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_incidentes_on_personalinvolucrado_id' AND type='index'
+
+  [1m[36m (0.8ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_incidentes_on_funcionario_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_incidentes_on_funcionario_id' AND type='index'
+[0m
+  [1m[35m (0.7ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_incidentes_on_centro_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_incidentes_on_centro_id' AND type='index'
+
+  [1m[36m (147.7ms)[0m  [1mCREATE  INDEX "index_incidentes_on_tipoincidente_id" ON "incidentes" ("tipoincidente_id")[0m
+  [1m[35m (278.7ms)[0m  CREATE TABLE "municipios" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "nombre" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (273.4ms)[0m  [1mCREATE TABLE "personalinvolucrados" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "nombre" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (151.3ms)[0m  CREATE TABLE "riesgos" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "empresa" varchar(255), "funcionario_id" integer, "fecha" date, "areadeseccionopuestodetrabajo" varchar(255), "tiporiesgo_id_id" integer, "factorderiesgo" varchar(255), "fuentegeneradora" varchar(255), "efectoconocido" varchar(255), "numerodeexpuestos" varchar(255), "tiempo" varchar(255), "controlesexitentes" varchar(255), "controlesrecomendados" varchar(255), "consecuencia" varchar(255), "exposicion" varchar(255), "factordeponderacion" varchar(255), "repercuciondelriesgo" varchar(255), "created_at" datetime, "updated_at" datetime, "tiporiesgo_id" integer) 
+  [1m[36m (120.6ms)[0m  [1mCREATE  INDEX "index_riesgos_on_funcionario_id" ON "riesgos" ("funcionario_id")[0m
+  [1m[35m (0.7ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_riesgos_on_funcionario_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_riesgos_on_funcionario_id' AND type='index'
+
+  [1m[36m (142.7ms)[0m  [1mCREATE  INDEX "index_riesgos_on_tiporiesgo_id" ON "riesgos" ("tiporiesgo_id")[0m
+  [1m[35m (142.0ms)[0m  CREATE TABLE "tipoaccidentes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "nombre" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (153.0ms)[0m  [1mCREATE TABLE "tipodocs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "nombre" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (152.9ms)[0m  CREATE TABLE "tipoenfermedads" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "nombre" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (163.9ms)[0m  [1mCREATE TABLE "tipoincapacidads" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "nombre" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (152.5ms)[0m  CREATE TABLE "tipoincidentes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "nombre" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (142.7ms)[0m  [1mCREATE TABLE "tiporiesgos" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "nombre" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (141.0ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255) NOT NULL, "crypted_password" varchar(255) NOT NULL, "salt" varchar(255) NOT NULL, "rol" boolean, "nombre" varchar(255), "documento" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (143.2ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (145.1ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (143.9ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.7ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (101.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20141001203854')[0m
+  [1m[35m (88.4ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20140908054106')
+  [1m[36m (88.1ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140904140141')[0m
+  [1m[35m (110.6ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20140618162833')
+  [1m[36m (94.6ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140826034351')[0m
+  [1m[35m (103.5ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20140908053511')
+  [1m[36m (88.6ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140612154512')[0m
+  [1m[35m (95.0ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20140904140246')
+  [1m[36m (110.4ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140605182743')[0m
+  [1m[35m (99.2ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20140904140613')
+  [1m[36m (103.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140827140700')[0m
+  [1m[35m (88.3ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20140617003234')
+  [1m[36m (84.0ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140605182911')[0m
+  [1m[35m (99.3ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20140904132905')
+  [1m[36m (81.4ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140612163221')[0m
+  [1m[35m (110.4ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20140617012019')
+  [1m[36m (88.3ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140904140308')[0m
+  [1m[35m (84.0ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20140811162332')
+  [1m[36m (81.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140908052920')[0m
+  [1m[35m (106.4ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20140613181236')
+  [1m[36m (70.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140908054341')[0m
+  [1m[35m (84.0ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20140609235423')
+  [1m[36m (155.1ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140618145810')[0m
+  [1m[35m (132.8ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20140612151918')
+  [1m[36m (81.6ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140617142350')[0m
+  [1m[35m (84.0ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20140908054713')
+  [1m[36m (108.4ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140829182207')[0m
+  [1m[35m (131.9ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20140826024834')
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mTipodoc Exists (0.7ms)[0m  SELECT  1 AS one FROM "tipodocs"  WHERE "tipodocs"."nombre" = 'Cedula de Ciudadania' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "tipodocs" ("created_at", "nombre", "updated_at") VALUES (?, ?, ?)  [["created_at", "2016-02-05 02:49:03.594919"], ["nombre", "Cedula de Ciudadania"], ["updated_at", "2016-02-05 02:49:03.594919"]]
+  [1m[36m (88.4ms)[0m  [1mcommit transaction[0m
+  [1m[35mTipodoc Exists (0.9ms)[0m  SELECT  1 AS one FROM "tipodocs"  WHERE "tipodocs"."nombre" = 'Tarjeta de Identidad' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "tipodocs" ("created_at", "nombre", "updated_at") VALUES (?, ?, ?)  [["created_at", "2016-02-05 02:49:03.714254"], ["nombre", "Tarjeta de Identidad"], ["updated_at", "2016-02-05 02:49:03.714254"]]
+  [1m[36m (99.7ms)[0m  [1mcommit transaction[0m
+  [1m[35mTipodoc Exists (0.5ms)[0m  SELECT  1 AS one FROM "tipodocs"  WHERE "tipodocs"."nombre" = 'Registro Civil' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "tipodocs" ("created_at", "nombre", "updated_at") VALUES (?, ?, ?)  [["created_at", "2016-02-05 02:49:03.824592"], ["nombre", "Registro Civil"], ["updated_at", "2016-02-05 02:49:03.824592"]]
+  [1m[36m (90.4ms)[0m  [1mcommit transaction[0m
+  [1m[35mTipodoc Exists (0.5ms)[0m  SELECT  1 AS one FROM "tipodocs"  WHERE "tipodocs"."nombre" = 'Cedula de Extranjeria' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "tipodocs" ("created_at", "nombre", "updated_at") VALUES (?, ?, ?)  [["created_at", "2016-02-05 02:49:03.924312"], ["nombre", "Cedula de Extranjeria"], ["updated_at", "2016-02-05 02:49:03.924312"]]
+  [1m[36m (103.7ms)[0m  [1mcommit transaction[0m
+  [1m[35mPersonalinvolucrado Exists (0.4ms)[0m  SELECT  1 AS one FROM "personalinvolucrados"  WHERE "personalinvolucrados"."nombre" = 'Funcionario' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "personalinvolucrados" ("created_at", "nombre", "updated_at") VALUES (?, ?, ?)  [["created_at", "2016-02-05 02:49:04.061023"], ["nombre", "Funcionario"], ["updated_at", "2016-02-05 02:49:04.061023"]]
+  [1m[36m (76.4ms)[0m  [1mcommit transaction[0m
+  [1m[35mPersonalinvolucrado Exists (0.7ms)[0m  SELECT  1 AS one FROM "personalinvolucrados"  WHERE "personalinvolucrados"."nombre" = 'Contratista' LIMIT 1
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "personalinvolucrados" ("created_at", "nombre", "updated_at") VALUES (?, ?, ?)  [["created_at", "2016-02-05 02:49:04.149000"], ["nombre", "Contratista"], ["updated_at", "2016-02-05 02:49:04.149000"]]
+  [1m[36m (66.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mPersonalinvolucrado Exists (0.7ms)[0m  SELECT  1 AS one FROM "personalinvolucrados"  WHERE "personalinvolucrados"."nombre" = 'Visitante' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "personalinvolucrados" ("created_at", "nombre", "updated_at") VALUES (?, ?, ?)  [["created_at", "2016-02-05 02:49:04.226174"], ["nombre", "Visitante"], ["updated_at", "2016-02-05 02:49:04.226174"]]
+  [1m[36m (110.5ms)[0m  [1mcommit transaction[0m
+  [1m[35mCentro Exists (0.4ms)[0m  SELECT  1 AS one FROM "centros"  WHERE "centros"."nombre" = ' Centro Tecnológico del Mobiliario' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "centros" ("created_at", "nombre", "updated_at") VALUES (?, ?, ?)  [["created_at", "2016-02-05 02:49:04.372847"], ["nombre", " Centro Tecnológico del Mobiliario"], ["updated_at", "2016-02-05 02:49:04.372847"]]
+  [1m[36m (108.7ms)[0m  [1mcommit transaction[0m
+  [1m[35mCentro Exists (0.7ms)[0m  SELECT  1 AS one FROM "centros"  WHERE "centros"."nombre" = 'Centro de Formación en Diseño Cofección y Moda' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "centros" ("created_at", "nombre", "updated_at") VALUES (?, ?, ?)  [["created_at", "2016-02-05 02:49:04.492778"], ["nombre", "Centro de Formación en Diseño Cofección y Moda"], ["updated_at", "2016-02-05 02:49:04.492778"]]
+  [1m[36m (87.8ms)[0m  [1mcommit transaction[0m
+  [1m[35mCentro Exists (0.7ms)[0m  SELECT  1 AS one FROM "centros"  WHERE "centros"."nombre" = 'Centro de Diseño y Manufactura del Cuero' LIMIT 1
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "centros" ("created_at", "nombre", "updated_at") VALUES (?, ?, ?)  [["created_at", "2016-02-05 02:49:04.591855"], ["nombre", "Centro de Diseño y Manufactura del Cuero"], ["updated_at", "2016-02-05 02:49:04.591855"]]
+  [1m[36m (78.3ms)[0m  [1mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.7ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.7ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_accidentes_on_tipodoc_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_accidentes_on_tipodoc_id' AND type='index'
+[0m
+  [1m[35m (0.5ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_accidentes_on_tipoaccidente_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_accidentes_on_tipoaccidente_id' AND type='index'
+
+  [1m[36m (0.5ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_accidentes_on_municipio_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_accidentes_on_municipio_id' AND type='index'
+[0m
+  [1m[35m (0.4ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_accidentes_on_funcionario_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_accidentes_on_funcionario_id' AND type='index'
+
+  [1m[36m (0.4ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_accidentes_on_departamento_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_accidentes_on_departamento_id' AND type='index'
+[0m
+  [1m[35m (0.5ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_enfermedads_on_tipoenfermedad_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_enfermedads_on_tipoenfermedad_id' AND type='index'
+
+  [1m[36m (0.4ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_enfermedads_on_tipodoc_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_enfermedads_on_tipodoc_id' AND type='index'
+[0m
+  [1m[35m (0.4ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_enfermedads_on_funcionario_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_enfermedads_on_funcionario_id' AND type='index'
+
+  [1m[36m (0.4ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_enfermedads_on_centro_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_enfermedads_on_centro_id' AND type='index'
+[0m
+  [1m[35m (0.5ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_funcionarios_on_tipodoc_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_funcionarios_on_tipodoc_id' AND type='index'
+
+  [1m[36m (0.5ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_funcionarios_on_centro_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_funcionarios_on_centro_id' AND type='index'
+[0m
+  [1m[35m (0.5ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_incapacidads_on_tipoincapacidad_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_incapacidads_on_tipoincapacidad_id' AND type='index'
+
+  [1m[36m (0.5ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_incapacidads_on_funcionario_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_incapacidads_on_funcionario_id' AND type='index'
+[0m
+  [1m[35m (0.5ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_incidentes_on_tipoincidente_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_incidentes_on_tipoincidente_id' AND type='index'
+
+  [1m[36m (0.4ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_incidentes_on_personalinvolucrado_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_incidentes_on_personalinvolucrado_id' AND type='index'
+[0m
+  [1m[35m (0.4ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_incidentes_on_funcionario_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_incidentes_on_funcionario_id' AND type='index'
+
+  [1m[36m (0.4ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_incidentes_on_centro_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_incidentes_on_centro_id' AND type='index'
+[0m
+  [1m[35m (0.5ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_riesgos_on_tiporiesgo_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_riesgos_on_tiporiesgo_id' AND type='index'
+
+  [1m[36m (0.6ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_riesgos_on_funcionario_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_riesgos_on_funcionario_id' AND type='index'
+[0m
+  [1m[35m (0.7ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-04 22:54:21 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (2.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UserSessionsController#index as HTML
+  Rendered user_sessions/index.html.erb within layouts/application (6.2ms)
+  Rendered layouts/_navigation_links.html.erb (14.5ms)
+  Rendered layouts/_navigation.html.erb (23.2ms)
+  Rendered layouts/_messages.html.erb (2.1ms)
+  Rendered layouts/_footer.html.erb (1.8ms)
+Completed 200 OK in 9107ms (Views: 9054.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2016-02-04 22:56:25 -0500
+Processing by UsersController#new as JS
+DEPRECATION WARNING: [paperclip] [deprecation] Rails 3.2 and 4.1 are unsupported as of Rails 5 release. Please upgrade to Rails 4.2 before upgrading paperclip. (called from <class:Album> at /home/pc/proyectos/PROYECTO/app/models/album.rb:3)
+  Rendered users/_form.html.erb (584.9ms)
+  Rendered users/new.js.erb (597.6ms)
+Completed 200 OK in 669ms (Views: 630.6ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2016-02-04 22:56:32 -0500
+Processing by UsersController#new as JS
+  Rendered users/_form.html.erb (26.9ms)
+  Rendered users/new.js.erb (35.8ms)
+Completed 200 OK in 49ms (Views: 45.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2016-02-04 22:56:35 -0500
+Processing by UsersController#new as JS
+  Rendered users/_form.html.erb (48.8ms)
+  Rendered users/new.js.erb (56.3ms)
+Completed 200 OK in 68ms (Views: 65.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2016-02-04 22:56:36 -0500
+Processing by UsersController#new as JS
+  Rendered users/_form.html.erb (39.3ms)
+  Rendered users/new.js.erb (46.6ms)
+Completed 200 OK in 85ms (Views: 77.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2016-02-04 22:56:36 -0500
+Processing by UsersController#new as JS
+  Rendered users/_form.html.erb (42.8ms)
+  Rendered users/new.js.erb (61.3ms)
+Completed 200 OK in 82ms (Views: 80.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/user_sessions" for 127.0.0.1 at 2016-02-04 22:56:37 -0500
+Processing by UserSessionsController#index as HTML
+  Rendered user_sessions/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_navigation_links.html.erb (4.4ms)
+  Rendered layouts/_navigation.html.erb (8.7ms)
+  Rendered layouts/_messages.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (1.4ms)
+Completed 200 OK in 3172ms (Views: 3170.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2016-02-04 22:56:40 -0500
+Processing by UserSessionsController#new as HTML
+  Rendered user_sessions/_form.html.erb (49.2ms)
+  Rendered user_sessions/new.html.erb within layouts/application (54.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.5ms)
+  Rendered layouts/_navigation.html.erb (3.7ms)
+  Rendered layouts/_messages.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 3182ms (Views: 3176.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2016-02-04 22:56:43 -0500
+Processing by UsersController#new as JS
+  Rendered users/_form.html.erb (108.1ms)
+  Rendered users/new.js.erb (151.2ms)
+Completed 200 OK in 172ms (Views: 168.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2016-02-04 23:07:40 -0500
+Processing by UsersController#new as JS
+  Rendered users/_form.html.erb (26.3ms)
+  Rendered users/new.js.erb (34.2ms)
+Completed 200 OK in 46ms (Views: 43.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2016-02-04 23:07:53 -0500
+Processing by UsersController#new as JS
+  Rendered users/_form.html.erb (25.2ms)
+  Rendered users/new.js.erb (33.2ms)
+Completed 200 OK in 44ms (Views: 42.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/user_sessions" for 127.0.0.1 at 2016-02-04 23:07:54 -0500
+Processing by UserSessionsController#index as HTML
+  Rendered user_sessions/index.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_navigation_links.html.erb (1.5ms)
+  Rendered layouts/_navigation.html.erb (3.5ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 2492ms (Views: 2490.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2016-02-04 23:07:57 -0500
+Processing by UsersController#new as JS
+  Rendered users/_form.html.erb (28.6ms)
+  Rendered users/new.js.erb (36.7ms)
+Completed 200 OK in 48ms (Views: 45.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2016-02-04 23:07:59 -0500
+Processing by UsersController#new as JS
+  Rendered users/_form.html.erb (24.9ms)
+  Rendered users/new.js.erb (31.9ms)
+Completed 200 OK in 43ms (Views: 41.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2016-02-04 23:08:04 -0500
+Processing by UsersController#new as JS
+  Rendered users/_form.html.erb (25.4ms)
+  Rendered users/new.js.erb (32.7ms)
+Completed 200 OK in 44ms (Views: 41.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2016-02-04 23:08:04 -0500
+Processing by UsersController#new as JS
+  Rendered users/_form.html.erb (24.4ms)
+  Rendered users/new.js.erb (31.6ms)
+Completed 200 OK in 42ms (Views: 40.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2016-02-04 23:08:21 -0500
+Processing by UserSessionsController#new as HTML
+  Rendered user_sessions/_form.html.erb (4.1ms)
+  Rendered user_sessions/new.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.4ms)
+  Rendered layouts/_navigation.html.erb (3.8ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 2423ms (Views: 2421.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2016-02-04 23:08:26 -0500
+Processing by UsersController#new as JS
+  Rendered users/_form.html.erb (36.1ms)
+  Rendered users/new.js.erb (44.5ms)
+Completed 200 OK in 57ms (Views: 53.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2016-02-04 23:08:36 -0500
+Processing by UsersController#new as JS
+  Rendered users/_form.html.erb (32.8ms)
+  Rendered users/new.js.erb (42.0ms)
+Completed 200 OK in 53ms (Views: 51.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2016-02-04 23:08:46 -0500
+Processing by UsersController#new as JS
+  Rendered users/_form.html.erb (24.6ms)
+  Rendered users/new.js.erb (31.7ms)
+Completed 200 OK in 43ms (Views: 40.7ms | ActiveRecord: 0.0ms)

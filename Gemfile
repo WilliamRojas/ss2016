@@ -1,11 +1,11 @@
 source 'https://rubygems.org'
 ruby '2.2.1'
-group  :production do
-	gem 'pg', '0.18.4'
+#group  :production do
+	#gem 'pg', '0.18.4'
 
-	gem 'rails_12factor'
-end
-
+	#gem 'rails_12factor', '0.0.2'
+#end
+gem 'rake', '10.5.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.1'
 # Use sqlite3 as the database for Active Record
